@@ -1,0 +1,42 @@
+.images-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+.match-img {
+  width: 500px;
+}
+
+.tabs-container {
+  display: flex;
+}
+
+.tabs-list {
+  list-style: none;
+}
+
+button {
+  margin: 20px;
+  border: none;
+  font-size: 20px;
+  background-color: transparent;
+  color: #ffffff;
+  font-weight: bolder;
+}
+
+.active-tab {
+  border-bottom: 2px solid #fec653;
+  color: #fec653;
+}
+
+.thumbsImages {
+  width: 100px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.image-list-item {
+  list-style: none;
+}
